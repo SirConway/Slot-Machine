@@ -1,0 +1,53 @@
+<html>
+<link href="css/styles.css"
+	type="text/css"
+	rel="stylesheet">
+<head>
+<title>Slot Machine</title>
+</head>
+<body>
+	<table>
+	    <thead>
+	        <tr>
+	            <th colspan="6">Try your luck!</th>
+	        </tr>
+	    </thead>
+	    <tbody>
+					<tr>
+					 		<td colspan="6"><img id="donk" src="images/doubledonk.png" /></td>
+			 		</tr>
+
+          <tr>
+              <td colspan="6"><h1 id="heading">Try me!</h1></td>
+          </tr>
+
+	        <tr id="slots">
+	            <td colspan="2"><h1 id="slot1">0</h1></td>
+	            <td colspan="2"><h1 id="slot2">0</h1></td>
+							<td colspan="2"><h1 id="slot3">0</h1></td>
+	        </tr>
+
+          <tr>
+             <td colspan="3"><h2>Bet:</h2><h2 id="bet"></h2></td>
+             <td colspan="3"><h2>Win:</h2><h2 id="winnings"></h2></td>
+         </tr>
+
+					<tr>
+							<td colspan="2"><button type="button" id="betPlus"><h1> + </h1></button></td>
+              <td colspan="2"><button type="button" id="betMinus"><h1> - </h1></button></td>
+              <td colspan="2"><button type="button" id="spin"><h1> Pull </h1></button></td>
+          </tr>
+
+          <tr>
+             <td colspan="3"><h2>Tokens Left:</h2><h2 id="coins"></h2></td>
+             <td colspan="3"><h2>Tokens Won:</h2><h2 id="totalWinnings"></h2></td>
+         </tr>
+
+         <tr>
+             <td colspan="5"><button type="button" id="addWinningsButton"><h1>Add...</h1></button></td>
+         </tr>
+					<script src="js/script.js"></script>
+	    </tbody>
+	</table>
+
+</body>
