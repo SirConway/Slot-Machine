@@ -1,0 +1,26 @@
+
+
+table,
+td {
+    border: 1px solid #333;
+    margin: auto auto auto auto;
+    border-style: solid;
+    border-width: thick;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
+
+#slots {
+  text-align: center;
+  font-family: fantasy;
+  text-transform: uppercase;
+  background-color: rgb(120,0,120);
+  color: rgb(255,255,0);
+  text-shadow: 2px 2px #000000
+}
